@@ -25,6 +25,11 @@ Output calling getValCount gave me 3.
 Challenges & Fixes
 I had many, many challenges and fixes to do. The main issue was working through logic. Every time I thought I was reasoning properly, I would make mistakes. Very many times, I would find myself having put a lot of time into writing a function and realizing I did it wrong after I finished. Nearly every function took multiple tries, and insert and rotations gave me the most trouble. The main fixes I remember having to implement are handling a case where a grandparent would be no to avoid crashes,  fixing case to rotation updates by properly reassigning pointers, and ensuring the route is always black at the end of balancing. While there were many more mistakes and fixes I had to make, these were the main ones I remember. The main thing I struggled with was deletion, and out of fear, I was running low on time and maybe wouldn't get to submission on time. I wrote deletion out of my project. The option is still in the menu; I removed my starting Logic for it in the function. Had I started this assignment earlier, I would have done deletion, but I suspect it would have been much harder compared to everything else. I underestimated how difficult this assignment would be, but even without deletion, I'm still quite proud of what I learned and how I was able to reason through the logic.
 
+How To Run:
+From the terminal in the project folder run: g++ -std=c++11 main.cpp redBlackTree.cpp -o rbt
+Once compiled run: ./rbt
+From there you will be prompted to enter 1 to start and a menu will appear giving you further instructions
+
 Screenshots
 https://drive.google.com/drive/folders/1BOSwdEiVlq8ShNNN_dTDX3tCsMjpdntr
 
